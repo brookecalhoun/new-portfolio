@@ -1,26 +1,46 @@
-.App {
-  text-align: center;
-  font-family: 'Bratsy', cursive;
-  background-image: url('./assets/bg.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
-.name{
-  margin: 0 auto;
-  position: absolute;
-  top: 80%;
-  transform: translate(0, -50%);
-  padding: 10px;
-  font-size: 18vh;
-  color: #FDFCDB;
-  font-weight: 400;
-  -webkit-text-stroke: 1vh #DB4142;
-  letter-spacing: 1.5vw;
-  width: 100%;
-}
 @font-face {
   font-family: 'Bratsy';
   src:  url('./assets/fonts/bratsyscriptdemoreguler-9yyb0-webfont.woff2') format('woff2'),
         url('./assets/fonts/bratsyscriptdemoreguler-9yyb0-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'Abstract';
+  src:  url('./assets/fonts/abstractgroovy-k7zdy-webfont.woff2') format('woff2'),
+        url('./assets/fonts/abstractgroovy-k7zdy-webfont.woff') format('woff');
+}
+.App {
+  text-align: center;
+  background-image: url('./assets/bg.png');
+  background-size: fill;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 100vh;
+}
+.name{
+  font-family: 'Bratsy', cursive;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 10px;
+  font-size: 15vh;
+  color: #FDFCDB;
+  font-weight: 400;
+  -webkit-text-stroke: 0.5vh #DB4142;
+  letter-spacing: 1.5vw;
+  width: 100%;
+}
+.tagline{
+  font-family: 'Abstract', cursive;
+  margin: 0 auto;
+  position: absolute;
+  top: 90%;
+  transform: translate(0, -50%);
+  padding: 10px;
+  font-size: 15vh;
+  color: #DB4142;
+  font-weight: 400;
+  -webkit-text-stroke: 0.5vh #FDFCDB;
+  letter-spacing: 1.5vw;
+  width: 100%;
 }
