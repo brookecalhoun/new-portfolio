@@ -4,17 +4,18 @@
   background-image: url('./assets/bg.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 .name{
   margin: 0 auto;
   position: absolute;
-  top: 90%;
+  top: 80%;
   transform: translate(0, -50%);
   padding: 10px;
   font-size: 18vh;
   color: #FDFCDB;
   font-weight: 400;
-  -webkit-text-stroke: 4px #DB4142;
+  -webkit-text-stroke: 1vh #DB4142;
   letter-spacing: 1.5vw;
   width: 100%;
 }

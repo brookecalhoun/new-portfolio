@@ -5,7 +5,7 @@ function App() {
 
     <div className='App'>
       {/* <img className='name' src={Name}/> */}
-      <h1 className='name'> Hi I'm Brooke</h1>
+      <h1 className='name'> Hi, I'm Brooke</h1>
     </div>
   );
 }
