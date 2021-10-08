@@ -8,39 +8,66 @@
   src:  url('./assets/fonts/abstractgroovy-k7zdy-webfont.woff2') format('woff2'),
         url('./assets/fonts/abstractgroovy-k7zdy-webfont.woff') format('woff');
 }
+@font-face {
+  font-family: 'Bright';
+  src:  url('./assets/fonts/brightdemo-axvxe-webfont.woff2') format('woff2'),
+        url('./assets/fonts/brightdemo-axvxe-webfont.woff') format('woff');
+}
+@media screen and (max-width: 800px) {
+  .intro, .tagline, .name {
+    width: 100%; 
+  }
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* app.js */
 .App {
   text-align: center;
-  background-image: url('./assets/bg.png');
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   min-height: 100vh;
 }
+
+/* nav */
+.header{
+  background-color: #EF8C98;
+  font-family: 'Bright', cursive;
+}
+.B{
+  height: 8vh;
+}
+
+/* homepage */
 .name{
-  font-family: 'Bratsy', cursive;
+  font-family: 'Bright', cursive;
   margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
+  position: relative;
   padding: 10px;
   font-size: 15vh;
   color: #FDFCDB;
-  font-weight: 400;
-  -webkit-text-stroke: 0.5vh #DB4142;
-  letter-spacing: 1.5vw;
+  /* font-weight: 400; */
+  /* -webkit-text-stroke: 0.5vh #DB4142; */
+  /* letter-spacing: 1.5vw; */
   width: 100%;
 }
 .tagline{
-  font-family: 'Abstract', cursive;
+  font-family: 'Bright', cursive;
   margin: 0 auto;
-  position: absolute;
-  top: 90%;
-  transform: translate(0, -50%);
-  padding: 10px;
-  font-size: 15vh;
+  position: relative;
+  font-size: 5vh;
   color: #DB4142;
-  font-weight: 400;
-  -webkit-text-stroke: 0.5vh #FDFCDB;
-  letter-spacing: 1.5vw;
-  width: 100%;
+  /* -webkit-text-stroke: 0.2vh #FDFCDB; */
+  /* letter-spacing: 1vw; */
+  width: 60%;
 }
+.intro{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  position: absolute;
+  top: 100%;
+}
+
