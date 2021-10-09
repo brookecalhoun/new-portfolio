@@ -9,8 +9,8 @@ function Homepage() {
     <div className="homepage">
         <Projects />
       <div className="intro">
-        <h1 className="name"> Hi, I'm Brooke</h1>
-        <p className="tagline">I want to make things that make a difference.</p>
+        <h1 className="name"> Hi, I'm Brooke.</h1>
+        <p className="tagline">Looking to create code that makes a difference.</p>
       </div>
       <div className="tabs">
         <About />
