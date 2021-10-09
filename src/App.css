@@ -72,10 +72,8 @@ body::-webkit-scrollbar {
   flex-wrap: wrap;
   overflow: auto;
   position: absolute;
-  margin-top: 25%;
+  margin-top: 30%;
 }
-.tabs{
-  margin-top: 80%;
-}
+
 
 
