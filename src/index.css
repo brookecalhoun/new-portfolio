@@ -5,9 +5,10 @@ body {
 }
 
 html,body,#root,.App,.homepage-css{
-  background-image: url('./assets/bg.png');
+  background-image: url('./assets/bg3.png');
   background-position: fixed center;
   background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   margin: 0 auto;
 }
