@@ -51,10 +51,8 @@ body::-webkit-scrollbar {
 /* homepage */
 .name{
   font-family: 'Bright', cursive;
-  /* padding-bottom: 70vh; */
   padding-top: 30vh;
   margin: 0 auto;
-  position: relative;
   font-size: 20vh;
   color: #FDFCDB;
   width: 100%;
@@ -62,7 +60,6 @@ body::-webkit-scrollbar {
 .tagline{
   font-family: 'Bright', cursive;
   margin: 0 auto;
-  position: relative;
   font-size: 7vh;
   color: #FDFCDB;
   width: 60%;
@@ -70,9 +67,22 @@ body::-webkit-scrollbar {
 .intro{
   display: flex;
   flex-wrap: wrap;
-  overflow: auto;
-  position: absolute;
   margin-top: 30%;
+}
+
+/* videos */
+.videos{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 20vh;
+  padding-bottom: 50px;
+}
+.pokemon{
+  padding-top: 10px;
+}
+.ehub{
+  padding-top: 10px;
 }
 
 

@@ -1,5 +1,5 @@
 import "./App.css";
-import Homepage from './pages/Homepage'
+import Homepage from './components/Homepage'
 import Header from './components/Header'
 
 
