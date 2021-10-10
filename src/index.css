@@ -13,6 +13,7 @@ html,body,#root,.App,.homepage-css{
   min-height: 100vh;
   background-attachment: fixed;
   margin: 0 auto;
+  margin-top: 30vh;
 }
 
 

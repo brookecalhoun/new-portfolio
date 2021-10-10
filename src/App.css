@@ -1,89 +1,136 @@
 @font-face {
-  font-family: 'Bratsy';
-  src:  url('./assets/fonts/bratsyscriptdemoreguler-9yyb0-webfont.woff2') format('woff2'),
-        url('./assets/fonts/bratsyscriptdemoreguler-9yyb0-webfont.woff') format('woff');
+  font-family: "Bratsy";
+  src: url("./assets/fonts/bratsyscriptdemoreguler-9yyb0-webfont.woff2")
+      format("woff2"),
+    url("./assets/fonts/bratsyscriptdemoreguler-9yyb0-webfont.woff")
+      format("woff");
 }
 @font-face {
-  font-family: 'Abstract';
-  src:  url('./assets/fonts/abstractgroovy-k7zdy-webfont.woff2') format('woff2'),
-        url('./assets/fonts/abstractgroovy-k7zdy-webfont.woff') format('woff');
+  font-family: "Abstract";
+  src: url("./assets/fonts/abstractgroovy-k7zdy-webfont.woff2") format("woff2"),
+    url("./assets/fonts/abstractgroovy-k7zdy-webfont.woff") format("woff");
 }
 @font-face {
-  font-family: 'Bright';
-  src:  url('./assets/fonts/brightdemo-axvxe-webfont.woff2') format('woff2'),
-        url('./assets/fonts/brightdemo-axvxe-webfont.woff') format('woff');
+  font-family: "Bright";
+  src: url("./assets/fonts/brightdemo-axvxe-webfont.woff2") format("woff2"),
+    url("./assets/fonts/brightdemo-axvxe-webfont.woff") format("woff");
 }
 @media screen and (max-width: 800px) {
-  .intro, .tagline, .name {
-    width: 100%; 
-    margin-top: 5%;
+  .intro {
+    width: 100%;
+    margin-top: -35%;
+    position: inherit;
   }
 }
 body::-webkit-scrollbar {
   display: none;
 }
-
 /* app.js */
 .App {
+  font-family: "Bright", cursive;
   text-align: center;
   min-height: 100vh;
 }
 
 /* nav */
-.header{
-  background-color:#DA2B42;
-  font-family: 'Bright', cursive;
+.header {
+  background-color: #da2b42;
+  font-family: "Bright", cursive;
 }
-.B{
+.B {
   height: 8vh;
 }
-.headerlinks a{
-  color: #FEFDDB;
+.headerlinks a {
+  color: #fefddb;
   font-size: 5vh;
 }
-.headerlinks a:visited{
-  color: #FEFDDB;
+.headerlinks a:visited {
+  color: #fefddb;
 }
-.headerlinks a:hover{
-  color: #FB9500;
+.headerlinks a:hover {
+  color: #fb9500;
 }
 
 /* homepage */
-.name{
-  font-family: 'Bright', cursive;
+.name {
   padding-top: 30vh;
   margin: 0 auto;
-  font-size: 20vh;
-  color: #FDFCDB;
+  font-size: 30vh;
+  color: #82363A;
+  margin-top: -25%;
   width: 100%;
+  position: relative;
+  /* -webkit-text-stroke: 1px #DB4142; */
+  text-shadow: 2px 2px #FDFCDB;
 }
-.tagline{
-  font-family: 'Bright', cursive;
+.tagline {
   margin: 0 auto;
-  font-size: 7vh;
-  color: #FDFCDB;
+  font-size: 8vh;
+  color: #82363A;
   width: 60%;
+  /* text-align: left; */
+  text-shadow: 2px 2px #FDFCDB;
+  /* margin-left: 60%; */
 }
-.intro{
+.intro {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30%;
 }
 
-/* videos */
+/* projects */
+.projects{
+  margin-top: 20%;
+}
+.project-title{
+  color: #82363A;
+  text-shadow: 2px 2px #FDFCDB;
+  font-size: 25vh;
+}
 .videos{
   display: flex;
-  flex-direction: column;
-  position: absolute;
-  margin-top: 20vh;
-  padding-bottom: 50px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.pokemon{
-  padding-top: 10px;
+.koru-video {
+  height: 50vh;
+  padding: 3vh;
 }
-.ehub{
-  padding-top: 10px;
+.koru-title{
+  margin: 0 auto;
+  background: #FDFCDB;
+  border-radius: 100px;
+  width: 20vh;
+  color: #F39431;
+  font-size: 7vh;
+  border: 2vh solid #82363A;
+  padding-top: 1vh;
 }
-
-
-
+.pokemon-video {
+  padding: 3vh;
+  height: 50vh;
+}
+.pokemon-title{
+  margin: 0 auto;
+  background: #FDFCDB;
+  width: 60vh;
+  color: #F39431;
+  border: 2vh solid #82363A;
+  border-radius: 100px;
+  padding-top: 1vh;
+  font-size: 7vh;
+}
+.ehub-video {
+  padding: 3vh;
+  height: 50vh;
+}
+.ehub-title{
+  background: #FDFCDB;
+  margin: 0 auto;
+  width: 20vh;
+  color: #F39431;
+  border-radius: 100px;
+  border: 2vh solid #82363A;
+  padding-top: 1vh;
+  font-size: 7vh
+}
