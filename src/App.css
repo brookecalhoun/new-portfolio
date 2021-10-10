@@ -29,7 +29,6 @@ body::-webkit-scrollbar {
 /* nav */
 .header {
   background-color: #da2b42;
-  font-family: "Bright", cursive;
 }
 .B {
   height: 8vh;
@@ -45,6 +44,15 @@ body::-webkit-scrollbar {
   color: #fb9500;
 }
 
+/* footer */
+.footer{
+  opacity: 0.5;
+  height: 9vh;
+  background-color: #da2b42;
+}
+.b-footer{
+  height: 6vh;
+}
 /* homepage */
 .name {
   padding-top: 30vh;
@@ -102,21 +110,12 @@ body::-webkit-scrollbar {
   text-shadow: 1px 1px #DB4142;
   padding-top: 1vh;
 }
-.koru-button{
-  color: #EF8C98;
+.move-button{
+  color: #DB4142;
   background: #FDFCDB;
   box-shadow: 0px 0px 0px transparent;
-  border: 10px solid #82363A;
-  text-shadow: 0.5px 0.5px #DB4142;
   font-size: 3vh;
-  border-radius: 100px;
-}
-.koru-button:hover{
-  color: #FDFCDB;
-  background: #DB4142;
-  box-shadow: 0px 0px 0px transparent;
-  border: 10px solid #82363A;
-  text-shadow: 1px 1px black;
+  border-radius: 10px;
 }
 button:active {
   outline: none;
@@ -145,22 +144,6 @@ button:focus {
   text-shadow: 1px 1px #DB4142;
   padding-top: 1vh;
 }
-.poke-button{
-  color: #EF8C98;
-  background: #FDFCDB;
-  box-shadow: 0px 0px 0px transparent;
-  border: 10px solid #82363A;
-  text-shadow: 0.5px 0.5px #DB4142;
-  font-size: 3vh;
-  border-radius: 100px;
-}
-.poke-button:hover{
-  color: #FDFCDB;
-  background: #DB4142;
-  box-shadow: 0px 0px 0px transparent;
-  border: 10px solid #82363A;
-  text-shadow: 1px 1px black;
-}
 .ehub{
   display: flex;
   flex-direction: column;
@@ -179,22 +162,6 @@ button:focus {
   border: 2vh solid #82363A;
   text-shadow: 1px 1px #DB4142;
   padding-top: 1vh;
-}
-.ehub-button{
-  color: #EF8C98;
-  background: #FDFCDB;
-  box-shadow: 0px 0px 0px transparent;
-  border: 10px solid #82363A;
-  text-shadow: 0.5px 0.5px #DB4142;
-  font-size: 3vh;
-  border-radius: 100px;
-}
-.ehub-button:hover{
-  color: #FDFCDB;
-  background: #DB4142;
-  box-shadow: 0px 0px 0px transparent;
-  border: 10px solid #82363A;
-  text-shadow: 1px 1px black;
 }
 .modal-backdrop {
   background-color: #EF8C98;
@@ -255,8 +222,8 @@ button:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  color: #FDFCDB;
-  text-shadow: 1px 1px #82363A;
+  color: #82363A;
+  text-shadow: 1px 1px #FDFCDB;
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
@@ -277,8 +244,8 @@ button:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  color: #FDFCDB;
-  text-shadow: 1px 1px #82363A;
+  color: #82363A;
+  text-shadow: 1px 1px #FDFCDB;
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
@@ -299,8 +266,8 @@ button:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  color: #FDFCDB;
-  text-shadow: 1px 1px #82363A;
+  color: #82363A;
+  text-shadow: 1px 1px #FDFCDB;
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
@@ -321,8 +288,8 @@ button:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  color: #FDFCDB;
-  text-shadow: 1px 1px #82363A;
+  color: #82363A;
+  text-shadow: 1px 1px #FDFCDB;
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
@@ -343,8 +310,8 @@ button:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  color: #FDFCDB;
-  text-shadow: 1px 1px #82363A;
+  color: #82363A;
+  text-shadow: 1px 1px #FDFCDB;
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
@@ -365,8 +332,8 @@ button:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  color: #FDFCDB;
-  text-shadow: 1px 1px #82363A;
+  color: #82363A;
+  text-shadow: 1px 1px #FDFCDB;
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
@@ -383,4 +350,18 @@ button:focus {
   display: flex;
   align-content: center;
   justify-content: space-between;
+}
+.about-me{
+  padding: 20px;
+  font-size: 4vh;
+  word-wrap:break-word;  
+}
+.about-description{
+  margin: 0 auto;
+  width: 70%;
+  background-color: #82363A;
+  border: 10px solid #EF8C98;
+  color: #FDFCDB;
+  text-shadow: 1px 1px #EF8C98;
+  border-radius: 50px;
 }

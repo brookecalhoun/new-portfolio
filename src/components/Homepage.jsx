@@ -36,7 +36,7 @@ function Homepage() {
             <Button
               variant="danger"
               onClick={handleShow}
-              className="koru-button"
+              className="more-button"
             >
               More Info
             </Button>
@@ -66,7 +66,7 @@ function Homepage() {
             <Button
               variant="danger"
               onClick={handleShow2}
-              className="poke-button"
+              className="more-button"
             >
               More Info
             </Button>
@@ -96,7 +96,7 @@ function Homepage() {
             <Button
               variant="danger"
               onClick={handleShow3}
-              className="ehub-button"
+              className="more-button"
             >
               More Info
             </Button>
@@ -129,6 +129,24 @@ function Homepage() {
         </div>
         <br />
         <div className="about-description">
+            <p className="about-me">
+              I'm a software engineer specializing in front-end development. My
+              passions are innovation, responsive design, and making a
+              difference with my code. Working at Walgreens as a manager at a
+              young age made me realize that I could quickly adapt to new
+              situations and easily learn new skills. One new skill that I had
+              learned was problem solving. I was able to build upon that skill
+              later by taking the General Assembly Software Engineer Immersive
+              course (the largest learning experience of my life thus far).
+              Throughout my life, I've also had to develop gritt, due to my
+              mother being a drug addict. Luckily this led me to form my strong
+              moral code and pushed me to want to pursue a career I could make a
+              difference in. When I'm not coding, you can find me hanging out
+              with my dog, Frank and my chicken, Gertrude (probably daydreaming
+              about more pets).
+            </p>
+          </div>
+        <br />
           <div className="skill-list">
             <div className="css-wrap">
               <h3 className="css-name">CSS</h3>
@@ -173,13 +191,8 @@ function Homepage() {
               />
             </div>
           </div>
-          <p className="about-me">
-            I'm a software engineer specializing in front-end development. My
-            passions are innovation, responsive design, and accessibility.{" "}
-          </p>
         </div>
       </div>
-    </div>
   );
 }
 export default Homepage;
