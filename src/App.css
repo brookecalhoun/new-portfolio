@@ -209,3 +209,178 @@ button:focus {
 .modal-title{
   font-size: 10vh;
 }
+
+/* about */
+.about{
+  margin-top: 20%;
+}
+.about-title{
+  color: #82363A;
+  text-shadow: 2px 2px #FDFCDB;
+  font-size: 25vh;
+}
+.me{
+  width: 30vw;
+  border-radius: 60px;
+  opacity: 0.8;
+  padding: 5vh;
+}
+.overlay1{
+  background-color: #EF8C98;
+  margin: 0 auto;
+  width: 48vw;
+  border-radius: 60px;
+  padding: 3vh;
+}
+.overlay2{
+  background-color: #DB4142;
+  margin: 0 auto;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  width: 40vw;
+  border-radius: 60px;
+}
+.overlay3{
+  background-color: #fb9500;
+  margin: 0 auto;
+  width: 30vw;
+  border-radius: 60px;
+}
+.css-wrap{
+  position: relative;
+}
+.css-name{
+  position: absolute;
+  top: -40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FDFCDB;
+  text-shadow: 1px 1px #82363A;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+.css-wrap:hover .css-name{
+  visibility: visible;
+  opacity: 1;
+}
+.css{
+  height: 10vh;
+}
+.js-wrap{
+  position: relative;
+}
+.js-name{
+  position: absolute;
+  top: -40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FDFCDB;
+  text-shadow: 1px 1px #82363A;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+.js-wrap:hover .js-name{
+  visibility: visible;
+  opacity: 1;
+}
+.js{
+  height: 10vh;
+}
+.html-wrap{
+  position: relative;
+}
+.html-name{
+  position: absolute;
+  top: -40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FDFCDB;
+  text-shadow: 1px 1px #82363A;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+.html-wrap:hover .html-name{
+  visibility: visible;
+  opacity: 1;
+}
+.html{
+  height: 10vh;
+}
+.python-wrap{
+  position: relative;
+}
+.python-name{
+  position: absolute;
+  top: -40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FDFCDB;
+  text-shadow: 1px 1px #82363A;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+.python-wrap:hover .python-name{
+  visibility: visible;
+  opacity: 1;
+}
+.python{
+  height: 10vh;
+}
+.react-wrap{
+  position: relative;
+}
+.react-name{
+  position: absolute;
+  top: -40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FDFCDB;
+  text-shadow: 1px 1px #82363A;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+.react-wrap:hover .react-name{
+  visibility: visible;
+  opacity: 1;
+}
+.react{
+  height: 10vh;
+}
+.mongo-wrap{
+  position: relative;
+}
+.mongo-name{
+  position: absolute;
+  top: -40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FDFCDB;
+  text-shadow: 1px 1px #82363A;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+.mongo-wrap:hover .mongo-name{
+  visibility: visible;
+  opacity: 1;
+}
+.mongo{
+  height: 10vh;
+}
+.skill-list{
+  padding: 10vh;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
