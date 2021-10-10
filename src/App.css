@@ -1,19 +1,12 @@
 @font-face {
-  font-family: "Bratsy";
-  src: url("./assets/fonts/bratsyscriptdemoreguler-9yyb0-webfont.woff2")
-      format("woff2"),
-    url("./assets/fonts/bratsyscriptdemoreguler-9yyb0-webfont.woff")
-      format("woff");
+  font-family: "Bright";
+  src: url("./assets/fonts/brightdemo-axvxe-webfont.woff2") format("woff2"),
+    url("./assets/fonts/brightdemo-axvxe-webfont.woff") format("woff");
 }
 @font-face {
   font-family: "Abstract";
   src: url("./assets/fonts/abstractgroovy-k7zdy-webfont.woff2") format("woff2"),
     url("./assets/fonts/abstractgroovy-k7zdy-webfont.woff") format("woff");
-}
-@font-face {
-  font-family: "Bright";
-  src: url("./assets/fonts/brightdemo-axvxe-webfont.woff2") format("woff2"),
-    url("./assets/fonts/brightdemo-axvxe-webfont.woff") format("woff");
 }
 @media screen and (max-width: 800px) {
   .intro {
@@ -25,6 +18,7 @@
 body::-webkit-scrollbar {
   display: none;
 }
+
 /* app.js */
 .App {
   font-family: "Bright", cursive;
@@ -60,7 +54,6 @@ body::-webkit-scrollbar {
   margin-top: -25%;
   width: 100%;
   position: relative;
-  /* -webkit-text-stroke: 1px #DB4142; */
   text-shadow: 2px 2px #FDFCDB;
 }
 .tagline {
@@ -68,9 +61,7 @@ body::-webkit-scrollbar {
   font-size: 8vh;
   color: #82363A;
   width: 60%;
-  /* text-align: left; */
   text-shadow: 2px 2px #FDFCDB;
-  /* margin-left: 60%; */
 }
 .intro {
   display: flex;
@@ -92,6 +83,10 @@ body::-webkit-scrollbar {
   flex-wrap: wrap;
   justify-content: center;
 }
+.koru{
+  display: flex;
+  flex-direction: column;
+}
 .koru-video {
   height: 50vh;
   padding: 3vh;
@@ -100,11 +95,40 @@ body::-webkit-scrollbar {
   margin: 0 auto;
   background: #FDFCDB;
   border-radius: 100px;
-  width: 20vh;
-  color: #F39431;
+  width: 30vh;
+  color: #EF8C98;
   font-size: 7vh;
   border: 2vh solid #82363A;
+  text-shadow: 1px 1px #DB4142;
   padding-top: 1vh;
+}
+.koru-button{
+  color: #EF8C98;
+  background: #FDFCDB;
+  box-shadow: 0px 0px 0px transparent;
+  border: 10px solid #82363A;
+  text-shadow: 0.5px 0.5px #DB4142;
+  font-size: 3vh;
+  border-radius: 100px;
+}
+.koru-button:hover{
+  color: #FDFCDB;
+  background: #DB4142;
+  box-shadow: 0px 0px 0px transparent;
+  border: 10px solid #82363A;
+  text-shadow: 1px 1px black;
+}
+button:active {
+  outline: none;
+  border: none;
+}
+button:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}
+.pokemon{
+  display: flex;
+  flex-direction: column;
 }
 .pokemon-video {
   padding: 3vh;
@@ -113,24 +137,75 @@ body::-webkit-scrollbar {
 .pokemon-title{
   margin: 0 auto;
   background: #FDFCDB;
-  width: 60vh;
-  color: #F39431;
-  border: 2vh solid #82363A;
   border-radius: 100px;
-  padding-top: 1vh;
+  width: 70vh;
+  color: #EF8C98;
   font-size: 7vh;
+  border: 2vh solid #82363A;
+  text-shadow: 1px 1px #DB4142;
+  padding-top: 1vh;
+}
+.poke-button{
+  color: #EF8C98;
+  background: #FDFCDB;
+  box-shadow: 0px 0px 0px transparent;
+  border: 10px solid #82363A;
+  text-shadow: 0.5px 0.5px #DB4142;
+  font-size: 3vh;
+  border-radius: 100px;
+}
+.poke-button:hover{
+  color: #FDFCDB;
+  background: #DB4142;
+  box-shadow: 0px 0px 0px transparent;
+  border: 10px solid #82363A;
+  text-shadow: 1px 1px black;
+}
+.ehub{
+  display: flex;
+  flex-direction: column;
 }
 .ehub-video {
   padding: 3vh;
   height: 50vh;
 }
 .ehub-title{
-  background: #FDFCDB;
   margin: 0 auto;
-  width: 20vh;
-  color: #F39431;
+  background: #FDFCDB;
   border-radius: 100px;
+  width: 30vh;
+  color: #EF8C98;
+  font-size: 7vh;
   border: 2vh solid #82363A;
+  text-shadow: 1px 1px #DB4142;
   padding-top: 1vh;
-  font-size: 7vh
+}
+.ehub-button{
+  color: #EF8C98;
+  background: #FDFCDB;
+  box-shadow: 0px 0px 0px transparent;
+  border: 10px solid #82363A;
+  text-shadow: 0.5px 0.5px #DB4142;
+  font-size: 3vh;
+  border-radius: 100px;
+}
+.ehub-button:hover{
+  color: #FDFCDB;
+  background: #DB4142;
+  box-shadow: 0px 0px 0px transparent;
+  border: 10px solid #82363A;
+  text-shadow: 1px 1px black;
+}
+.modal-backdrop {
+  background-color: #EF8C98;
+}
+.modal-content{
+  font-family: "Abstract", cursive;
+  background-color: #EF8C98;
+  font-size: 3vh;
+  text-align: center;
+  font-weight: 100;
+}
+.modal-title{
+  font-size: 10vh;
 }
