@@ -30,7 +30,11 @@ function Homepage() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               <img src={Me} className="me" alt="me" />
+=======
+              <img src={Me} className="me" />
+>>>>>>> parent of 439dac0 (Updates)
 =======
               <img src={Me} className="me" />
 >>>>>>> parent of 439dac0 (Updates)
@@ -80,7 +84,10 @@ function Homepage() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               alt="css logo"
+=======
+>>>>>>> parent of 439dac0 (Updates)
 =======
 >>>>>>> parent of 439dac0 (Updates)
 =======
@@ -103,7 +110,10 @@ function Homepage() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               alt="javascript logo"
+=======
+>>>>>>> parent of 439dac0 (Updates)
 =======
 >>>>>>> parent of 439dac0 (Updates)
 =======
@@ -126,7 +136,10 @@ function Homepage() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               alt="html logo"
+=======
+>>>>>>> parent of 439dac0 (Updates)
 =======
 >>>>>>> parent of 439dac0 (Updates)
 =======
@@ -149,7 +162,10 @@ function Homepage() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               alt="python logo"
+=======
+>>>>>>> parent of 439dac0 (Updates)
 =======
 >>>>>>> parent of 439dac0 (Updates)
 =======
@@ -172,7 +188,10 @@ function Homepage() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               alt="react logo"
+=======
+>>>>>>> parent of 439dac0 (Updates)
 =======
 >>>>>>> parent of 439dac0 (Updates)
 =======
@@ -195,7 +214,10 @@ function Homepage() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               alt="css logo"
+=======
+>>>>>>> parent of 439dac0 (Updates)
 =======
 >>>>>>> parent of 439dac0 (Updates)
 =======
@@ -228,7 +250,11 @@ function Homepage() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <img src={QR} className="qr" alt="qr code" />
+=======
+            <img src={QR} className="qr" />
+>>>>>>> parent of 439dac0 (Updates)
 =======
             <img src={QR} className="qr" />
 >>>>>>> parent of 439dac0 (Updates)
@@ -256,8 +282,13 @@ function Homepage() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div className="resume" id="resume">
         <h2 className="resume-title">Resume.</h2>
+=======
+      <div className="resume" id='resume'>
+        <h2 className='resume-title'>Resume.</h2>
+>>>>>>> parent of 439dac0 (Updates)
 =======
       <div className="resume" id='resume'>
         <h2 className='resume-title'>Resume.</h2>
