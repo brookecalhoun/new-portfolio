@@ -25,31 +25,8 @@ function Homepage() {
         <div className="overlay1">
           <div className="overlay2">
             <div className="overlay3">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
               <img src={Me} className="me" alt="me" />
-=======
-              <img src={Me} className="me" />
->>>>>>> parent of 439dac0 (Updates)
-=======
-              <img src={Me} className="me" />
->>>>>>> parent of 439dac0 (Updates)
-=======
-              <img src={Me} className="me" />
->>>>>>> parent of 439dac0 (Updates)
-=======
-              <img src={Me} className="me" />
->>>>>>> parent of 439dac0 (Updates)
-=======
-              <img src={Me} className="me" />
->>>>>>> parent of 439dac0 (Updates)
-=======
-              <img src={Me} className="me" />
->>>>>>> parent of 439dac0 (Updates)
             </div>
           </div>
         </div>
@@ -79,51 +56,15 @@ function Homepage() {
             <img
               className="css"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-              alt="css logo"
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-            />
+/>
           </div>
           <div className="js-wrap">
             <h3 className="js-name">JavaScript</h3>
             <img
               className="js"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
               alt="javascript logo"
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
             />
           </div>
           <div className="html-wrap">
@@ -131,25 +72,9 @@ function Homepage() {
             <img
               className="html"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
               alt="html logo"
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
+
             />
           </div>
           <div className="python-wrap">
@@ -157,25 +82,9 @@ function Homepage() {
             <img
               className="python"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
               alt="python logo"
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
+
             />
           </div>
           <div className="react-wrap">
@@ -183,25 +92,9 @@ function Homepage() {
             <img
               className="react"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
               alt="react logo"
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
+
             />
           </div>
           <div className="mongo-wrap">
@@ -209,25 +102,9 @@ function Homepage() {
             <img
               className="mongo"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
               alt="css logo"
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
-=======
->>>>>>> parent of 439dac0 (Updates)
+
             />
           </div>
         </div>
@@ -245,31 +122,9 @@ function Homepage() {
           <p className="email">bancalhoun@ymail.com</p>
           <p className="number">602.488.9355</p>
           <a href="https://hihello.me/p/d1926065-47e2-4ad3-958a-847ab7fdf877">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
             <img src={QR} className="qr" alt="qr code" />
-=======
-            <img src={QR} className="qr" />
->>>>>>> parent of 439dac0 (Updates)
-=======
-            <img src={QR} className="qr" />
->>>>>>> parent of 439dac0 (Updates)
-=======
-            <img src={QR} className="qr" />
->>>>>>> parent of 439dac0 (Updates)
-=======
-            <img src={QR} className="qr" />
->>>>>>> parent of 439dac0 (Updates)
-=======
-            <img src={QR} className="qr" />
->>>>>>> parent of 439dac0 (Updates)
-=======
-            <img src={QR} className="qr" />
->>>>>>> parent of 439dac0 (Updates)
+
           </a>
           <br />
           <p className="qr-title">
@@ -277,38 +132,10 @@ function Homepage() {
           </p>
         </div>
       </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
       <div className="resume" id="resume">
         <h2 className="resume-title">Resume.</h2>
-=======
-      <div className="resume" id='resume'>
-        <h2 className='resume-title'>Resume.</h2>
->>>>>>> parent of 439dac0 (Updates)
-=======
-      <div className="resume" id='resume'>
-        <h2 className='resume-title'>Resume.</h2>
->>>>>>> parent of 439dac0 (Updates)
-=======
-      <div className="resume" id='resume'>
-        <h2 className='resume-title'>Resume.</h2>
->>>>>>> parent of 439dac0 (Updates)
-=======
-      <div className="resume" id='resume'>
-        <h2 className='resume-title'>Resume.</h2>
->>>>>>> parent of 439dac0 (Updates)
-=======
-      <div className="resume" id='resume'>
-        <h2 className='resume-title'>Resume.</h2>
->>>>>>> parent of 439dac0 (Updates)
-=======
-      <div className="resume" id='resume'>
-        <h2 className='resume-title'>Resume.</h2>
->>>>>>> parent of 439dac0 (Updates)
+
         <Resume />
       </div>
     </div>
