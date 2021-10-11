@@ -4,6 +4,10 @@ import Header from './components/Header'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import Footer from './components/Footer'
+>>>>>>> parent of 439dac0 (Updates)
 =======
 import Footer from './components/Footer'
 >>>>>>> parent of 439dac0 (Updates)
@@ -23,6 +27,10 @@ function App() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      {/* <Footer /> */}
+>>>>>>> parent of 439dac0 (Updates)
 =======
       {/* <Footer /> */}
 >>>>>>> parent of 439dac0 (Updates)
