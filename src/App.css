@@ -188,7 +188,7 @@ button:focus {
 
 /* about */
 .about {
-  margin-top: 20%;
+  margin-top: 15%;
 }
 .about-title {
   color: #82363a;
@@ -358,7 +358,7 @@ button:focus {
   display: flex;
   align-content: center;
   justify-content: space-between;
-  background-color: #EF8C98;
+  background-color: #ef8c98;
   width: 100%;
   height: 15vh;
   padding: 3vh;
@@ -400,31 +400,61 @@ button:focus {
   outline: 10px solid #ef8c98;
 }
 
-.contact-list a{
+.contact-list a {
   font-size: 5vh;
   color: #fdfcdb;
   text-decoration: #fdfcdb wavy underline;
 }
-.contact-list a:hover{
+.contact-list a:hover {
   font-size: 5vh;
   color: #fb9500;
   text-decoration: #fb9500 wavy underline;
 }
-.email{
+.email {
   font-size: 5vh;
   color: #fdfcdb;
 }
-.number{
-  font-family: 'Abstract', cursive;  
+.number {
+  font-family: "Abstract", cursive;
   font-size: 3vh;
   color: #fdfcdb;
 }
-.qr{
+.qr {
   width: 20vh;
   border: 10px solid #fb9500;
   border-radius: 10px;
 }
-.qr-title{
+.qr-title {
   font-size: 3vh;
   color: #fdfcdb;
+}
+
+/* resume */
+
+.resume-title {
+  margin-top: 20%;
+  color: #82363a;
+  text-shadow: 2px 2px #fdfcdb;
+  font-size: 18vh;
+}
+.resume-pdf{
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.Pre{
+  color: #db4142;
+  background: #fdfcdb;
+  box-shadow: 0px 0px 0px transparent;
+  font-size: 3vh;
+  border-radius: 10px;
+  padding-top: 8px;
+}
+.Post{
+  color: #db4142;
+  background: #fdfcdb;
+  box-shadow: 0px 0px 0px transparent;
+  font-size: 3vh;
+  border-radius: 10px;
+  padding-top: 8px;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import Me from "../assets/me.jpg";
 import QR from "../assets/qr.png";
 import ProjectCarousel from "./ProjectCarousel";
+import Resume from "./Resume";
 
 function Homepage() {
   return (
@@ -113,6 +114,10 @@ function Homepage() {
             scan or press the QR code for my business card!
           </p>
         </div>
+      </div>
+      <div className="resume" id='resume'>
+        <h2 className='resume-title'>Resume.</h2>
+        <Resume />
       </div>
     </div>
   );
