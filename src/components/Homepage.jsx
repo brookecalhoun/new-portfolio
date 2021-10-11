@@ -25,7 +25,7 @@ function Homepage() {
         <div className="overlay1">
           <div className="overlay2">
             <div className="overlay3">
-              <img src={Me} className="me" />
+              <img src={Me} className="me" alt="photo of me" />
             </div>
           </div>
         </div>
@@ -55,6 +55,7 @@ function Homepage() {
             <img
               className="css"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              alt="css logo"
             />
           </div>
           <div className="js-wrap">
@@ -62,6 +63,7 @@ function Homepage() {
             <img
               className="js"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="javascript logo"
             />
           </div>
           <div className="html-wrap">
@@ -69,6 +71,7 @@ function Homepage() {
             <img
               className="html"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="html logo"
             />
           </div>
           <div className="python-wrap">
@@ -76,6 +79,7 @@ function Homepage() {
             <img
               className="python"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+              alt="python logo"
             />
           </div>
           <div className="react-wrap">
@@ -83,6 +87,7 @@ function Homepage() {
             <img
               className="react"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="react logo"
             />
           </div>
           <div className="mongo-wrap">
@@ -90,6 +95,7 @@ function Homepage() {
             <img
               className="mongo"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+              alt="css logo"
             />
           </div>
         </div>
@@ -115,8 +121,8 @@ function Homepage() {
           </p>
         </div>
       </div>
-      <div className="resume" id='resume'>
-        <h2 className='resume-title'>Resume.</h2>
+      <div className="resume" id="resume">
+        <h2 className="resume-title">Resume.</h2>
         <Resume />
       </div>
     </div>
