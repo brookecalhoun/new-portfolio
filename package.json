@@ -12,6 +12,7 @@
     "@vime/react": "^5.0.33",
     "bootstrap": "^5.1.2",
     "file-saver": "^2.0.5",
+    "gh-pages": "^3.2.3",
     "jquery": "^3.6.0",
     "react": "^17.0.2",
     "react-awesome-slider": "^4.1.0",
