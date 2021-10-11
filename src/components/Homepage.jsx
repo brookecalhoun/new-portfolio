@@ -25,7 +25,7 @@ function Homepage() {
         <div className="overlay1">
           <div className="overlay2">
             <div className="overlay3">
-              <img src={Me} className="me" alt="photo of me" />
+              <img src={Me} className="me" alt="me" />
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@ function Homepage() {
           <p className="email">bancalhoun@ymail.com</p>
           <p className="number">602.488.9355</p>
           <a href="https://hihello.me/p/d1926065-47e2-4ad3-958a-847ab7fdf877">
-            <img src={QR} className="qr" />
+            <img src={QR} className="qr" alt="qr code" />
           </a>
           <br />
           <p className="qr-title">
