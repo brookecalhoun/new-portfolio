@@ -1,7 +1,11 @@
 {
   "name": "portfolio",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "homepage": "http://brookecalhoun.github.io/portfolio/index",
+=======
+  "homepage": "http://brookecalhoun.github.io/portfolio",
+>>>>>>> parent of 439dac0 (Updates)
 =======
   "homepage": "http://brookecalhoun.github.io/portfolio",
 >>>>>>> parent of 439dac0 (Updates)
@@ -13,12 +17,18 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "bootstrap": "^5.1.2",
 =======
+=======
+>>>>>>> parent of 439dac0 (Updates)
     "@vime/core": "^5.0.33",
     "@vime/react": "^5.0.33",
     "bootstrap": "^5.1.2",
     "file-saver": "^2.0.5",
+<<<<<<< HEAD
+>>>>>>> parent of 439dac0 (Updates)
+=======
 >>>>>>> parent of 439dac0 (Updates)
     "gh-pages": "^3.2.3",
     "jquery": "^3.6.0",

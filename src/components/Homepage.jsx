@@ -26,7 +26,11 @@ function Homepage() {
           <div className="overlay2">
             <div className="overlay3">
 <<<<<<< HEAD
+<<<<<<< HEAD
               <img src={Me} className="me" alt="me" />
+=======
+              <img src={Me} className="me" />
+>>>>>>> parent of 439dac0 (Updates)
 =======
               <img src={Me} className="me" />
 >>>>>>> parent of 439dac0 (Updates)
@@ -60,7 +64,10 @@ function Homepage() {
               className="css"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
 <<<<<<< HEAD
+<<<<<<< HEAD
               alt="css logo"
+=======
+>>>>>>> parent of 439dac0 (Updates)
 =======
 >>>>>>> parent of 439dac0 (Updates)
             />
@@ -71,7 +78,10 @@ function Homepage() {
               className="js"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
 <<<<<<< HEAD
+<<<<<<< HEAD
               alt="javascript logo"
+=======
+>>>>>>> parent of 439dac0 (Updates)
 =======
 >>>>>>> parent of 439dac0 (Updates)
             />
@@ -82,7 +92,10 @@ function Homepage() {
               className="html"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
 <<<<<<< HEAD
+<<<<<<< HEAD
               alt="html logo"
+=======
+>>>>>>> parent of 439dac0 (Updates)
 =======
 >>>>>>> parent of 439dac0 (Updates)
             />
@@ -93,7 +106,10 @@ function Homepage() {
               className="python"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
 <<<<<<< HEAD
+<<<<<<< HEAD
               alt="python logo"
+=======
+>>>>>>> parent of 439dac0 (Updates)
 =======
 >>>>>>> parent of 439dac0 (Updates)
             />
@@ -104,7 +120,10 @@ function Homepage() {
               className="react"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
 <<<<<<< HEAD
+<<<<<<< HEAD
               alt="react logo"
+=======
+>>>>>>> parent of 439dac0 (Updates)
 =======
 >>>>>>> parent of 439dac0 (Updates)
             />
@@ -115,7 +134,10 @@ function Homepage() {
               className="mongo"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
 <<<<<<< HEAD
+<<<<<<< HEAD
               alt="css logo"
+=======
+>>>>>>> parent of 439dac0 (Updates)
 =======
 >>>>>>> parent of 439dac0 (Updates)
             />
@@ -136,7 +158,11 @@ function Homepage() {
           <p className="number">602.488.9355</p>
           <a href="https://hihello.me/p/d1926065-47e2-4ad3-958a-847ab7fdf877">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <img src={QR} className="qr" alt="qr code" />
+=======
+            <img src={QR} className="qr" />
+>>>>>>> parent of 439dac0 (Updates)
 =======
             <img src={QR} className="qr" />
 >>>>>>> parent of 439dac0 (Updates)
@@ -148,8 +174,13 @@ function Homepage() {
         </div>
       </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div className="resume" id="resume">
         <h2 className="resume-title">Resume.</h2>
+=======
+      <div className="resume" id='resume'>
+        <h2 className='resume-title'>Resume.</h2>
+>>>>>>> parent of 439dac0 (Updates)
 =======
       <div className="resume" id='resume'>
         <h2 className='resume-title'>Resume.</h2>
