@@ -1,9 +1,7 @@
 import React from "react";
 import Me from "../assets/me.jpg";
 import QR from "../assets/qr.png";
-import email from "../assets/email.png";
 import ProjectCarousel from "./ProjectCarousel";
-import Contact from './Contact'
 
 function Homepage() {
   return (
@@ -96,38 +94,26 @@ function Homepage() {
         </div>
       </div>
 
-      <div className="contact" id='contact'>
+      <div className="contact" id="contact">
         <h2 className="contact-title">Let's get in touch!</h2>
-        <Contact />
-        {/* <div className="contact-list">
-          <div className="linkedin">
-            <a href="https://linkedin.com/in/brooke-calhoun">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                className="linkedin-img"
-              />
-              <p>linkedin.com/in/brooke-calhoun</p>
-            </a>
-          </div>
-          <div className="github">
-            <a href="https://github.com/brookecalhoun">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                className="github-img"
-              />
-              <p>github.com/brookecalhoun</p>
-            </a>
-          </div>
-          <div className="email">
-            <img src={email} className="email-img" />
-            <p> bancalhoun@ymail.com </p>
-          </div>
+        <div className="contact-list">
+          <a href="https://linkedin.com/in/brooke-calhoun" className="linkedin">
+            LinkedIn
+          </a>
+          <a href="https://github.com/brookecalhoun" className="github">
+            GitHub
+          </a>
+          <p className="email">bancalhoun@ymail.com</p>
+          <p className="number">602.488.9355</p>
           <a href="https://hihello.me/p/d1926065-47e2-4ad3-958a-847ab7fdf877">
-            <p className="qr-title">scan the QR code for my business card!</p>
             <img src={QR} className="qr" />
           </a>
-        </div>*/}
-      </div> 
+          <br />
+          <p className="qr-title">
+            scan or press the QR code for my business card!
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
